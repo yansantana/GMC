@@ -1,0 +1,174 @@
+body {
+    background-color: #ffffff !important;
+}
+
+.logo {
+    width: 150px;
+}
+.hea {
+    width: 100%;
+    position:static; 
+    height: 600px;
+    z-index: -1;
+}
+.featured {
+    position: relative;
+    font-family: gothlight;
+    margin-top: 100px !important;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    width: 65% !important;
+}
+.navbar {
+    padding-top: 60px !important;
+    
+}
+.navbar-nav {
+    font-family: gothnarrow;
+    font-size: 0.9em;
+    color: black !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    width: 200px;
+    border: solid #ffffff;
+    border-width: 0 0.7px 0.7px 0.7px !important;
+    background-color: #ffffff;
+}
+
+.dropdown-item:hover, .dropdown-item, .dropdown-header {
+    background-color: #ffffff !important;
+    padding-bottom: 10px !important ;
+    font: 0.8em sans-serif !important ;
+    font-family: gothnarrow !important;
+}
+.dropdown-item-text {
+    font-size: 0.7em !important;
+    color: gray !important;
+}
+.nav-item {
+    margin-left: 30px;
+}
+
+a, a:visited, i:visited, i {
+    color: grey !important;
+}
+
+a:hover, i:hover {
+    color: black !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.faqontent {
+    margin-top: 50px !important;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+}
+
+a:hover>.arrow {
+    border: solid black;
+}
+.arrow {
+    transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important;
+    border: solid grey  ;
+    border-width: 0 1px 1px 0 !important;
+    display: inline-block !important;
+    padding: 2px !important;
+    margin-bottom: 4px ;
+    margin-left: 2px;
+  }
+
+.goth {
+    font-family: gothnarrow !important;
+    font-size: 0.9em !important;
+    color: #5e5e5e
+}
+
+.goth0 {
+    font-family: gothnarrow !important;
+    font-size: 0.8em !important;
+    color: #5e5e5e
+}
+.gothh1 {
+    font-family: gothbook !important;
+    font-size: 1.5em;
+    color: #464646;
+    letter-spacing: 1.7px;
+    
+}
+b {
+    text-transform: uppercase;
+}
+.gothh2 {
+    font-family: gothbook !important;
+    font-size: 1.3em;
+    color: grey;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.gothh3 {
+    font-family: gothbook !important;
+    font-size: 1.1em;
+    color: #464646;
+}
+
+
+.leftside {
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+}
+.rightside {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 45px;
+    text-align: justify ;
+}
+.picture {
+    width: 300px;
+    height: 375px;
+}
+
+@font-face {
+    font-family: gothbold;
+    src: local('gothbold'),
+    url(Fonts/GothamNarrow-Black.otf) format('opentype');
+}
+@font-face {
+    font-family: gothnarrow;
+    src: local('gothnarrow'),
+    url(Fonts/GothamNarrow-Book.otf) format('opentype');
+}
+@font-face {
+    font-family: gothbook;
+    src: local('gothbook'),
+    url(Fonts/Gotham-Book.otf) format('opentype');
+}
+.arrow {
+    transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important;
+    border: solid grey  ;
+    border-width: 0 1px 1px 0 !important;
+    display: inline-block !important;
+    padding: 2px !important;
+    margin-bottom: 4px ;
+    margin-left: 2px;
+  }
+@font-face {
+    font-family: gothlight;
+    src: local('gothlight'),
+    url(Fonts/GothamNarrow-Thin.otf) format('opentype');
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 800px)
+{
+    .navbar {
+        padding-top: 10px !important;
+    }
+}
